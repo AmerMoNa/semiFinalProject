@@ -6,7 +6,7 @@
       <class name="semiFinalSecondTest.semiFinalSecondTest.AppTest">
         <methods>
           <include name="mySetup"/>
-          <include name="mouseHoverTest"/>
+          <include name="iFrameTest"/>
         </methods>
       </class> <!-- semiFinalSecondTest.semiFinalSecondTest.AppTest -->
     </classes>

@@ -243,4 +243,35 @@ public class AppTest {
 		
 	}
 	
+	@Test (priority = 14)
+	public void iFrameTest () throws InterruptedException {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0,2200)");
+		
+		driver.switchTo().frame(0);
+		WebElement burgurMenu = driver.findElement(By.cssSelector(".ct-mobile-meta-item.btn-nav-mobile.open-menu"));
+		burgurMenu.click();
+		
+		Set<String> handles = driver.getWindowHandles();
+		List<String> switchWin = new ArrayList<>(handles);
+		driver.switchTo().window(switchWin.get(0));
+		
+		WebElement calendarButton = driver.findElement(By.partialLinkText("Booking"));
+		calendarButton.click();
+		
+		Set<String> handles2 = driver.getWindowHandles();
+		List<String> switchWin2 = new ArrayList<>(handles2);
+		driver.switchTo().window(switchWin2.get(1));
+		Thread.sleep(1000);
+		System.out.println(driver.getTitle());
+		
+		driver.switchTo().window(switchWin2.get(0));
+		System.out.println(driver.getTitle());
+		driver.switchTo().frame("iframe-name");
+		WebElement exitButton = driver.findElement(By.id("ct-menu-mobile"));
+		exitButton.click();
+		
+	}
+	
 }
