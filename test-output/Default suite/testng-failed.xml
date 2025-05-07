@@ -6,7 +6,8 @@
       <class name="semiFinalSecondTest.semiFinalSecondTest.AppTest">
         <methods>
           <include name="mySetup"/>
-          <include name="iFrameTest"/>
+          <include name="afterMyTest"/>
+          <include name="newTab"/>
         </methods>
       </class> <!-- semiFinalSecondTest.semiFinalSecondTest.AppTest -->
     </classes>

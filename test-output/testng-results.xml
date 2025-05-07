@@ -1,20 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="13" total="14" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-02T05:19:09 PDT" name="Default suite" finished-at="2025-05-02T05:19:39 PDT" duration-ms="29584">
+  <suite started-at="2025-05-07T00:41:18 PDT" name="Default suite" finished-at="2025-05-07T00:41:45 PDT" duration-ms="27111">
     <groups>
     </groups>
-    <test started-at="2025-05-02T05:19:09 PDT" name="Default test" finished-at="2025-05-02T05:19:39 PDT" duration-ms="29584">
+    <test started-at="2025-05-07T00:41:18 PDT" name="Default test" finished-at="2025-05-07T00:41:45 PDT" duration-ms="27111">
       <class name="semiFinalSecondTest.semiFinalSecondTest.AppTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@35a9782c]" started-at="2025-05-02T05:19:09 PDT" name="mySetup" finished-at="2025-05-02T05:19:35 PDT" duration-ms="26266" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:18 PDT" name="mySetup" finished-at="2025-05-07T00:41:29 PDT" duration-ms="10752" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="iFrameTest()[pri:14, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@35a9782c]" started-at="2025-05-02T05:19:36 PDT" name="iFrameTest" finished-at="2025-05-02T05:19:39 PDT" duration-ms="3194" status="PASS">
+        <test-method signature="radioButton()[pri:1, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:29 PDT" name="radioButton" finished-at="2025-05-07T00:41:29 PDT" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radioButton -->
+        <test-method signature="dynamicDropdown()[pri:2, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:29 PDT" name="dynamicDropdown" finished-at="2025-05-07T00:41:29 PDT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicDropdown -->
+        <test-method signature="staticDropDown()[pri:3, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:29 PDT" name="staticDropDown" finished-at="2025-05-07T00:41:30 PDT" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- staticDropDown -->
+        <test-method signature="checkBox()[pri:4, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:30 PDT" name="checkBox" finished-at="2025-05-07T00:41:30 PDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBox -->
+        <test-method signature="switchWindow()[pri:5, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:30 PDT" name="switchWindow" finished-at="2025-05-07T00:41:33 PDT" duration-ms="3097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchWindow -->
+        <test-method signature="facebookButton()[pri:6, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:33 PDT" name="facebookButton" finished-at="2025-05-07T00:41:33 PDT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookButton -->
+        <test-method signature="newTab()[pri:7, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:33 PDT" name="newTab" finished-at="2025-05-07T00:41:34 PDT" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTab -->
+        <test-method signature="alert()[pri:8, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:34 PDT" name="alert" finished-at="2025-05-07T00:41:35 PDT" duration-ms="1000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert -->
+        <test-method signature="theTable()[pri:9, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:35 PDT" name="theTable" finished-at="2025-05-07T00:41:35 PDT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- theTable -->
+        <test-method signature="hideShowTest()[pri:10, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:35 PDT" name="hideShowTest" finished-at="2025-05-07T00:41:36 PDT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hideShowTest -->
+        <test-method signature="enableDisableTest()[pri:11, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:36 PDT" name="enableDisableTest" finished-at="2025-05-07T00:41:36 PDT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enableDisableTest -->
+        <test-method signature="mouseHoverTest()[pri:12, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:36 PDT" name="mouseHoverTest" finished-at="2025-05-07T00:41:42 PDT" duration-ms="5919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverTest -->
+        <test-method signature="bookingCalendar()[pri:13, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:42 PDT" name="bookingCalendar" finished-at="2025-05-07T00:41:42 PDT" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingCalendar -->
+        <test-method signature="iFrameTest()[pri:14, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:42 PDT" name="iFrameTest" finished-at="2025-05-07T00:41:45 PDT" duration-ms="2284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iFrameTest -->
+        <test-method is-config="true" signature="afterMyTest()[pri:0, instance:semiFinalSecondTest.semiFinalSecondTest.AppTest@3e821657]" started-at="2025-05-07T00:41:45 PDT" name="afterMyTest" finished-at="2025-05-07T00:41:45 PDT" duration-ms="390" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMyTest -->
       </class> <!-- semiFinalSecondTest.semiFinalSecondTest.AppTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
